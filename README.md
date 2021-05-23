@@ -48,6 +48,7 @@ As it's highly and quickly scalable, and ability to communicate to all kind of d
 
 ## Opportunities at Wolfram
 <img align="left" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/job-searching.gif" width="40%"/>
-Chek out the page: https://www.wolfram.com/company/careers/opportunities/
-<br>
+Chek out the page: https://www.wolfram.com/company/careers/opportunities/<br>
+
+
 For ease of the purpose of selection, solution to the Wolfram Challenge required to qualify for the Wolfram Summer School will be updated here.
