@@ -42,3 +42,4 @@ Projects related to Data Analysis will be updated soon:
 
 ## Cloud Computing and IoT
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/cloud-computing-GIF.gif)
+Cloud Computing and IoT Services are among the major services that Wolfram offers. Cloud Computing not only includes processing on the cloud but also deploying the applications and websites over the cloud. The Wolfram Cloud combines a state-of-the-art notebook interface with the world's most productive programming language—scalable for programs from tiny to huge, with immediate access to a vast depth of built-in algorithms and knowledge.
