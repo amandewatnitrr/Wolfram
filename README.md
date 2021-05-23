@@ -35,7 +35,7 @@ Projects related to Data Analysis will be updated soon:
 .<br><br>
 <br>
 <br>
-<br>
+<br><br>
 <hr>
 
 ## Cloud Computing and IoT
