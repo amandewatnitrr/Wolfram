@@ -23,4 +23,10 @@ Some of the projects that has been developed have been mentioned here:
   <li><a href="https://github.com/amandewatnitrr/Wolfram/tree/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model">Brain Hameorrhage Diagnosis - Using Lenet based Deep Learning Model</a></li>
 </ol>
 <hr>
+
 ## Data Analysis
+The Wolfram Language has unparalleled scientific data analysis capabilities, building on its strong base of algorithms, ability to represent and manipulate models symbolically, and integrated representation of real-world quantities and entities. It integrates many aspects of statistical data analysis, from getting and exploring data to building high-quality models and deducing consequences.
+
+<img align="left" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/giphy-25.gif" width="40%"/>
+ 
+The Wolfram Language provides multiple ways to get data, starting with built-in curated data sources, importing from a variety of file formats, or connecting to databases. Basic processing of data, including computing statistical quantities, smoothing, testing, and visualizing, gives a first level of analysis. By adding models to the mix, such as distributional or regression models, you can answer a wider range of analysis questions or even provide predictive capabilities.
