@@ -1,4 +1,4 @@
-# Brain Haemoorrhage detection using Lenet based Deep Learning Model 
+# Brain Haemorrhage detection using Lenet based Deep Learning Model 
 <a href="https://community.wolfram.com/groups/-/m/t/2273879?p_p_auth=gV4BduE9"><img align="left" alt="Link to discussion" width="100px" src="https://img.shields.io/badge/Wolfram-DD1100?style=for-the-badge&logo=Wolfram&logoColor=white" /></a>
 <hr>
 
