@@ -47,4 +47,4 @@ As it's highly and quickly scalable, and ability to communicate to all kind of d
 <hr>
 
 ## Opportunities at Wolfram
-<img align="centre" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/job-searching.gif" width="40%"/>
+<img align="center" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/job-searching.gif" width="40%"/>
