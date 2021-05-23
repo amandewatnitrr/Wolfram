@@ -33,9 +33,6 @@ The Wolfram Language provides multiple ways to get data, starting with built-in 
 
 Projects related to Data Analysis will be updated soon:
 .<br>
-.<br>
-.<br>
-.<br>
 <br>
 <br>
 <hr>
