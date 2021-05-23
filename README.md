@@ -16,3 +16,9 @@ The Wolfram Language (/ˈwʊlfrəm/ WUUL-frəm) is a general multi-paradigm prog
 The Wolfram Language includes a wide range of state-of-the-art integrated machine learning capabilities, from highly automated functions like Predict and Classify to functions based on specific methods and diagnostics, including the latest neural net approaches. The functions work on many types of data, including numerical, categorical, time series, textual, image and audio.</justify>
 
 The Wolfram Language has state-of-the-art capabilities for the construction, training and deployment of neural network machine learning systems. Many standard layer types are available and are assembled symbolically into a network, which can then immediately be trained and deployed on available CPUs and GPUs.
+
+Some of the projects that has been developed have been mentioned here:
+<ol>
+  <li><a href="https://github.com/amandewatnitrr/Wolfram/tree/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model">Brain Hameorrhage Diagnosis - Using Lenet based Deep Learning Model</a></li>
+
+</ol>
