@@ -1,8 +1,7 @@
-# Brain Haemoorrhage detection using Lenet based Deep Learnng Model <a href="https://community.wolfram.com/groups/-/m/t/2273879?p_p_auth=gV4BduE9">
-  <img align="left" alt="Link to discussion" width="100px" src="https://img.shields.io/badge/Wolfram-DD1100?style=for-the-badge&logo=Wolfram&logoColor=white" />
-</a>
-<hr>
+# Brain Haemoorrhage detection using Lenet based Deep Learning Model 
+<a href="https://community.wolfram.com/groups/-/m/t/2273879?p_p_auth=gV4BduE9"><img align="left" alt="Link to discussion" width="100px" src="https://img.shields.io/badge/Wolfram-DD1100?style=for-the-badge&logo=Wolfram&logoColor=white" /></a>
 
+<hr>
 ## Introduction
 <img align="left" src="https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/deep-brain-bleeds-new-2.gif" width="40%"/>
 Brain haemorrhage is a type of stroke. It's caused by an artery in the brain bursting and causing confined bleeding in the enclosing tissues. This bleeding kills brain cells. The Greek root for blood is hemo. Haemorrhage means "blood bursting forth." Brain haemorrhages are also called cerebral haemorrhages, intracranial haemorrhages, or intracerebral haemorrhages. Cerebral haemorrhage deems for about 13% of all strokes in the United States. It is the next foremost cause of stroke. (The principal cause of stroke is a blood clot – thrombus – in an artery in the brain, which blocks blood flow and cuts off required oxygen and nutrients to the brain.
