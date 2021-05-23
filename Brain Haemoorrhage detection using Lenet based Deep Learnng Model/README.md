@@ -8,6 +8,6 @@ Brain haemorrhage is a type of stroke. It's caused by an artery in the brain bur
 ## Importing Dataset
 I implied a data set of haemorrhage and non-haemorrhage brain from Kaggle. Each class placed in its corresponding variable.
 ```Wolfram
-infected=FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\hemmorhage_data"];
-uninfected=FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\non_hemmorhage_data"];
+infected = FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\hemmorhage_data"];
+uninfected = FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\non_hemmorhage_data"];
 ```
