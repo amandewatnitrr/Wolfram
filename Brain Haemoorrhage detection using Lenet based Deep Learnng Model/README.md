@@ -53,3 +53,28 @@ I trained the neural nets with 10 training rounds.
 results=​​NetTrain[lenet,Normal[trainingdata],All,​​ValidationSet->Normal[validationdata],MaxTrainingRounds->10,​​TargetDevice->"CPU"]
 ```
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/1.png)
+
+## Training the Neural Network with Augmented Layers
+Next I implemented an ImageAugmentationLayer, which randomly crops images to create new data sets to improve my neural network.
+```Wolfram
+augment =  ImageAugmentationLayer[{135, 135},   "Input" -> NetEncoder[{"Image", {139, 139}}],   "Output" -> NetDecoder["Image"]]
+```
+I made the images 139 by 139 and allowed the augmentation layer to crop the images by 4 pixels at random within the constraints of the dimensions of 135 by 135.
+```Wolfram
+dims2 = {139, 139}
+lenet2 = NetChain[{ResizeLayer[dims2], 
+   ImageAugmentationLayer[{135, 135}], ConvolutionLayer[20, 5], Ramp, 
+   PoolingLayer[2, 2], ConvolutionLayer[50, 5], Ramp, 
+   PoolingLayer[2, 2], FlattenLayer[], 500, Ramp, 2, SoftmaxLayer[]}, 
+  "Output" -> NetDecoder[{"Class", {True, False}}], 
+  "Input" -> NetEncoder["Image"]]
+```
+I trained this data using the neural net, with only 7 layers on CPU.
+```Wolfram
+results2 = 
+  NetTrain[lenet2, Normal[trainingdata], All, 
+    ValidationSet -> Normal[validationdata], MaxTrainingRounds -> 7]
+```
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/2.png)
+## Creating a Testing Set for Data
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/3.png)
