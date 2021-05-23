@@ -40,4 +40,5 @@ Projects related to Data Analysis will be updated soon:
 <br>
 <hr>
 
-## Cloud Computing
+## Cloud Computing and IoT
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/cloud-computing-GIF.gif)
