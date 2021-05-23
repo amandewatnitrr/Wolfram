@@ -27,3 +27,27 @@ infectedvalues=Table[True,Length[infected]];​​Length[uninfected]
 70
 uninfectedvalues=Table[False,Length[uninfected]];
 ```
+
+Finally, using the AssociationThread function, I associated the images with their values and divided the data into two groups, 75% for training and 25% for validation.
+
+```Wolfram
+data=RandomSample[AssociationThread[infectedIMG->infectedvalues]];​​
+traininglength=Length[data]*.75
+52.5
+trainingdata=data[[1;;52]];​​validationdata=data[[53;;]];
+```
+## Creating the Neural Network
+I then started to work on the Neural Network, which used MNIST image classification. The network's goal is to classify uninfected and infected using true and false to describe whether the patient suffers Brain Haemorrhage or not. I built a NetChain function that had multiple layers. One striking layer is the Resize layer which changes the image dimensions of each image to 135 by 135. This changes the images to comply with the sensitivity of the neural network to the size of images. Further layers include the convolution layer, ramp, and pooling layer, which all work to narrow down pieces and create categories to classify each image to associate them.
+
+```Wolfram
+dims={135,135}
+{135,135}
+lenet=NetChain[{ResizeLayer[dims],ConvolutionLayer[20,5],Ramp,(*Takesoutthethenotusefulfeatures*)PoolingLayer[2,2],(*Downsamples*)ConvolutionLayer[50,5],Ramp,(*Takesoutthethenotusefulfeatures*)PoolingLayer[2,2],(*Downsamples*)FlattenLayer[],500,(*Makesfeaturesintofeaturevector"*)Ramp,2,(*Takesoutthethenotusefulfeatures-Trueorfalse*)SoftmaxLayer[]},(*Turnsthevectorintoprobabilities*)"Output"NetDecoder[{"Class",{True,False}}],(*Tensorintotrueorfalse*)"Input"NetEncoder["Image"](*Turnsimageintonumbers*)]
+```
+
+## Training the Neural Networks with NetTrain
+I trained the neural nets with 10 training rounds.
+
+```Wolfram
+results=​​NetTrain[lenet,Normal[trainingdata],All,​​ValidationSet->Normal[validationdata],MaxTrainingRounds->10,​​TargetDevice->"CPU"]
+```
