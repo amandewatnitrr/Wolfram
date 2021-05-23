@@ -37,6 +37,7 @@ traininglength=Length[data]*.75
 trainingdata=data[[1;;52]];​​validationdata=data[[53;;]];
 ```
 ## Creating the Neural Network
+<img align="left" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/hidden-layers-in-network.gif" width="40%"/>
 I then started to work on the Neural Network, which used MNIST image classification. The network's goal is to classify uninfected and infected using true and false to describe whether the patient suffers Brain Haemorrhage or not. I built a NetChain function that had multiple layers. One striking layer is the Resize layer which changes the image dimensions of each image to 135 by 135. This changes the images to comply with the sensitivity of the neural network to the size of images. Further layers include the convolution layer, ramp, and pooling layer, which all work to narrow down pieces and create categories to classify each image to associate them.
 
 ```Wolfram
