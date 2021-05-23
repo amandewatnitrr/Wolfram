@@ -32,14 +32,10 @@ The Wolfram Language has unparalleled scientific data analysis capabilities, bui
 The Wolfram Language provides multiple ways to get data, starting with built-in curated data sources, importing from a variety of file formats, or connecting to databases. Basic processing of data, including computing statistical quantities, smoothing, testing, and visualizing, gives a first level of analysis. By adding models to the mix, such as distributional or regression models, you can answer a wider range of analysis questions or even provide predictive capabilities.
 
 Projects related to Data Analysis will be updated soon:
-.
-.
-.
-.
-.
-.
-.
-.
+.<br>
+.<br>
+.<br>
+.<br>
 <hr>
 
 ## Cloud Computing
