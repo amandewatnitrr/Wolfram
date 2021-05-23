@@ -78,3 +78,11 @@ results2 =
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/2.png)
 ## Creating a Testing Set for Data
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/3.png)
+## Data Visualization
+Lastly, I made a ConfusionMatrixPlot using the Classifier Measurements function which compares the neural networks predicted class against the actual class result.
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/4.png)
+## Conclusion
+I built a neural network that strongly diagnosed Brain Haemorrhage with an accuracy of about 99.000000078%. Furthermore, as displayed in the ConfusionMatrix, there were 18 examples of the neural network prediction matching with the actual results for true and 18 examples of the neural network and actual matching for true.
+
+## Future Improvements
+To additionally enhance this project, I could implement more augmented datasets to further train and enhance the neural net. Moreover, I could use various images from different datasets to prevent overfitting and improve efficiency. Lastly, I could execute a function that pinpoints Brain Haemorrhage by finding the edges of the Haemorrhage area and sensing the infected cells through the function, image distribution and colour detection.
