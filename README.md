@@ -12,3 +12,5 @@ The Wolfram Language (/ˈwʊlfrəm/ WUUL-frəm) is a general multi-paradigm prog
 <img align="right" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/ai.gif" width="40%"/>
 
 The Wolfram Language includes a wide range of state-of-the-art integrated machine learning capabilities, from highly automated functions like Predict and Classify to functions based on specific methods and diagnostics, including the latest neural net approaches. The functions work on many types of data, including numerical, categorical, time series, textual, image and audio.</justify>
+
+The Wolfram Language has state-of-the-art capabilities for the construction, training and deployment of neural network machine learning systems. Many standard layer types are available and are assembled symbolically into a network, which can then immediately be trained and deployed on available CPUs and GPUs.
