@@ -52,3 +52,4 @@ I trained the neural nets with 10 training rounds.
 ```Wolfram
 results=​​NetTrain[lenet,Normal[trainingdata],All,​​ValidationSet->Normal[validationdata],MaxTrainingRounds->10,​​TargetDevice->"CPU"]
 ```
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/Brain%20Haemoorrhage%20detection%20using%20Lenet%20based%20Deep%20Learnng%20Model/1.png)
