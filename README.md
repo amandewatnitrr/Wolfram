@@ -5,6 +5,8 @@ This repository contains all the content required to lean Wolfram and some of th
 
 The Wolfram Language (/ˈwʊlfrəm/ WUUL-frəm) is a general multi-paradigm programming language developed by Wolfram Research. It emphasizes symbolic computation, functional programming, and rule-based programming and can employ arbitrary structures and data. It is the programming language of the mathematical symbolic computation program Mathematica.
 
+![](https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/%402x-Blog-Remote-Training-animation.gif)
+
 ## Artificial Intelligence and Machine Learning Model Training
 
 <justify>It serves as a easy way for deploying Machine Learning and Deep Learning based Cloud Applications. Machine Learning with python is quite difficult as the installation and other stuff such as installing libraries and library versions which requires code to be updated frequetly as soon as the new update arrives. Machine Learning with Wolfram is easy cause it's a functional programming laguage and doesnot require you to code the whole stuff including with the logistics.
