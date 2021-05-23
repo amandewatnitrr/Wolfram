@@ -11,3 +11,19 @@ I implied a data set of haemorrhage and non-haemorrhage brain from Kaggle. Each 
 infected = FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\hemmorhage_data"];
 uninfected = FileNames["*.png","E:\\COURSES\\Wolfram\\BrainTumorImagesDataset\\training_set\\non_hemmorhage_data"];
 ```
+## Constructing File Objects for Images
+I wanted to match each brain image with a value of either true for Hemorrhage or false for no Hemorrhage. To improve the efficiency of the importation, I formulated separate file objects for each of the image variables. Each variable contained 70 images for parasitized and uninfected cells.
+
+```Wolfram
+infectedIMG = File /@ infected;
+uninfectedIMG = File /@ uninfected;
+```
+Then I created a record of 70 true and false values which would be used to be matched up with their respective images. I set these lists in variables and made another variable to connect the list of true and false values along with another variable that connected the infected and uninfected file objects.
+
+```Wolfram
+Length[infectedIMG]
+70
+infectedvalues=Table[True,Length[infected]];​​Length[uninfected]
+70
+uninfectedvalues=Table[False,Length[uninfected]];
+```
