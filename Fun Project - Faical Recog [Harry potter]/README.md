@@ -47,8 +47,13 @@ potter[image, "Probabilities"]
 ```
 Build a button that takes a photo and runs it through the potter classifier.
 ```Wolfram
-Button["New Photo",
+ Button["New Photo",
  image = CurrentImage[ImageSize -> 350];
  character = potter[image];
  probabilities = potter[image, "Probabilities"]]
- ```
+```
+```Wolfram
+Dynamic[image]
+Dynamic[character]
+Dynamic[probabilities]
+```
