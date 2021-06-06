@@ -9,7 +9,7 @@ The Project is just made for fun purpose it doesn't have any real-world implemen
 
 1. A Laptop\Computer\Raspberry Pi with Camera
 2. Wolfram | One (Installed)
-3. 
+
 <hr>
 
 ## Introduction
