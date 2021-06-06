@@ -5,6 +5,7 @@
 The Project is just made for fun purpose it doesn't have any real-world implementation though you can make one out if you try and innovate!!
 <hr>
 # Requirements
+
 1. A Laptop\Computer\Raspberry Pi with Camera
 2. Wolfram | One (Installed)
 <hr>
