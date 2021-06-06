@@ -66,3 +66,15 @@ Make a Grid with four rows.
 4. The fourth row should have one item: the result of "Probabilities" from your Classify function.
 
 You can use Framed and FrameStyle to draw a frame around the Grid.
+
+```Wolfram
+Framed[Grid[{
+   {Text[Style["Which Harry Potter Character Are You?", Bold, 18]]},
+   {Dynamic[image]},
+   {Text[Style[Dynamic[character], Bold, 18]],
+    Button["New Photo",
+     image = CurrentImage[ImageSize -> 350];
+     character = potter[image];
+     probabilities = Normal[potter[image, "Probabilities"]]]},
+   {Text[Style[Dynamic[probabilities], 14]]}}], FrameStyle -> Thick]
+ ```
