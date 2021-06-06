@@ -18,6 +18,10 @@ We are going to build a classifier program that will learn to recognise categori
 
 First, In order to train the model, we need images of Harry, Ron, and Hermione so that we can train the classifier to recognise their faces. To do this, we need to get the URL to a Google image search and then use Import to import the images. Then train the classifier function on these images, so that it puts them into three categories: "Harry", "Ron", and "Hermione".
 
+<hr>
+
+## Code and Implementation
+
 ```Wolfram
 potter = Classify[<|
    "Harry" -> Import["https://www.google.co.uk/search?q=\"harry+potter\"+\"\Daniel+Radcliffe\"&tbm=isch", "Images"], 
