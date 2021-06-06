@@ -27,6 +27,7 @@ potter = Classify[<|
    "Harry" -> Import["https://www.google.co.uk/search?q=\"harry+potter\"+\"\Daniel+Radcliffe\"&tbm=isch", "Images"], 
    "Ron" ->   Import["https://www.google.co.uk/search?q=\"ron+weasley\"+\"\Rubert+Grint\"&tbm=isch", "Images"], 
    "Hermione" ->   Import["https://www.google.co.uk/search?q=\"hermione+granger\"+\"\emma+watson\"&tbm=isch", "Images"]|>]
+   (*This generates a classifier function potter which can tell which Harry Potter Character you look like.*)
 ```
 
 We can check how sure is the Classify function is about its classification by using Probabilities. We get the probability that an image fits into each class. In this case, there is an 85.4% probability that the image fits into the Harry class.
