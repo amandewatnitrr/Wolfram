@@ -82,4 +82,4 @@ Framed[Grid[{
   <img width="460" src="https://github.com/amandewatnitrr/Wolfram/blob/main/Fun%20Project%20-%20Faical%20Recog%20%5BHarry%20potter%5D/Screenshot%202021-06-07%20022035.png">
 </p><br>
 
-![Happy](https://github.com/amandewatnitrr/Wolfram/blob/main/Fun%20Project%20-%20Faical%20Recog%20%5BHarry%20potter%5D/0_C-cPP9D2MIyeexAT.gif")
+<img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Fun%20Project%20-%20Faical%20Recog%20%5BHarry%20potter%5D/0_C-cPP9D2MIyeexAT.gif"><\img>
