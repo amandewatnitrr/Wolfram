@@ -17,3 +17,10 @@ The Project is just made for fun purpose it doesn't have any real-world implemen
 We are going to build a classifier program that will learn to recognise categories of pictures. The classifier will then be able to study new images and guess which division they belong to. We will use images of Harry Potter, Hermione Granger, and Ron Weasley as data for the categories. We will use Classify function to order images of Harry Potter characters depending on the characteristics of the images.
 
 First, In order to train the model, we need images of Harry, Ron, and Hermione so that we can train the classifier to recognise their faces. To do this, we need to get the URL to a Google image search and then use Import to import the images. Then train the classifier function on these images, so that it puts them into three categories: "Harry", "Ron", and "Hermione".
+
+```Wolfram
+potter = Classify[<|
+   "Harry" -> Import["https://www.google.co.uk/search?q=\"harry+potter\"+\"\Daniel+Radcliffe\"&tbm=isch", "Images"], 
+   "Ron" ->   Import["https://www.google.co.uk/search?q=\"ron+weasley\"+\"\Rubert+Grint\"&tbm=isch", "Images"], 
+   "Hermione" ->   Import["https://www.google.co.uk/search?q=\"hermione+granger\"+\"\emma+watson\"&tbm=isch", "Images"]|>]
+```
