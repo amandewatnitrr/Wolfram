@@ -33,11 +33,8 @@ potter = Classify[<|
 We can check how sure is the Classify function is about its classification by using Probabilities. We get the probability that an image fits into each class. In this case, there is an 85.4% probability that the image fits into the Harry class.
 
 ```Wolfram
-In[]:= potter[image] (*Drag and drop you photo in place of image here*)
-Out[]= Caharacters_name
-
-In[]:= potter[image,"Probabilities"]
-Out[]= <|"Harry" -> 0.854853, "Hermione" -> 0.0806292, "Ron" -> 0.064518|> (*Something like this will likely appear*)
+potter[image] (*Drag and drop you photo in place of image here*)
+potter[image,"Probabilities"]
 ```
 
 Take a photo of yourself using your camera, and give the photo the variable name "image" and put this photo through the Classify function. 
