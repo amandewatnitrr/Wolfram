@@ -36,4 +36,4 @@ In[]:= potter[image]
 Out[]= Caharacters_name
 
 In[]:= potter[image,"Probabilities"]
-Out[]= <|"Harry" -> 0.854853, "Hermione" -> 0.0806292, "Ron" -> 0.064518|> //Something like this will likely appear
+Out[]= <|"Harry" -> 0.854853, "Hermione" -> 0.0806292, "Ron" -> 0.064518|> (*Something like this will likely appear*)
