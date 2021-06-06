@@ -3,9 +3,12 @@
   <img width="460" src="https://github.com/amandewatnitrr/Wolfram/blob/main/Fun%20Project%20-%20Faical%20Recog%20%5BHarry%20potter%5D/7cd53d36d121d839da9600ca055b01db.gif">
 </p><br>
 The Project is just made for fun purpose it doesn't have any real-world implementation though you can make one out if you try and innovate!!
-<hr><br>
-
+<hr>
 # Requirements
 1. A Laptop\Computer\Raspberry Pi with Camera
 2. Wolfram | One (Installed)
+<hr>
+# Introduction
+We are going to build a classifier program that will learn to recognise categories of pictures. The classifier will then be able to study new images and guess which division they belong to. We will use images of Harry Potter, Hermione Granger, and Ron Weasley as data for the categories. We will use Classify function to order images of Harry Potter characters depending on the characteristics of the images.
 
+First, In order to train the model, we need images of Harry, Ron, and Hermione so that we can train the classifier to recognise their faces. To do this, we need to get the URL to a Google image search and then use Import to import the images. Then train the classifier function on these images, so that it puts them into three categories: "Harry", "Ron", and "Hermione".
