@@ -57,3 +57,12 @@ Dynamic[image]
 Dynamic[character]
 Dynamic[probabilities]
 ```
+
+Make a Grid with four rows.
+
+1. The first row should have a title. You can make text look the way you want using Text and Style.
+2. The second row should be the Dynamic image. This is either be the image from your camera or the image you import using your buttons.
+3. The third row should have two items: the result of your Classify function, and your first button. The first button is either CurrentImage or FileNameSetter, depending on whether you have one or two buttons.
+4. The fourth row should have one item: the result of "Probabilities" from your Classify function.
+
+You can use Framed and FrameStyle to draw a frame around the Grid.
