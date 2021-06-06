@@ -8,7 +8,7 @@ The Project is just made for fun purpose it doesn't have any real-world implemen
 ## Requirements
 
 1. A Laptop\Computer\Raspberry Pi with Camera
-2. Wolfram | One (Installed)<a href="https://account.wolfram.com/access/wolfram-one/trial">![Wolfram](https://img.shields.io/badge/Wolfram-DD1100?style=flat-square&logo=Wolfram&logoColor=white)</a>
+2. Wolfram | One (Installed)<a href="https://account.wolfram.com/access/wolfram-one/trial"> Click here to get trial 👉 ![Wolfram](https://img.shields.io/badge/Wolfram-DD1100?style=flat-square&logo=Wolfram&logoColor=white)</a>
 
 <hr>
 
