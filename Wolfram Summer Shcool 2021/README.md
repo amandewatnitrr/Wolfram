@@ -5,5 +5,5 @@ My Community Disscussions : <a href="https://community.wolfram.com/web/amandewat
 <hr>
 <p align=center><span>
 <img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/PPT%20NFT.png" width="30%">
-  <img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/NFT%20Certificate.png" width="50%"></span>
+  <img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/NFT%20Certificate.png" width="40%"></span>
 </p>
