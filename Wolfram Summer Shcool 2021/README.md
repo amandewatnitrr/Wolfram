@@ -8,3 +8,8 @@ My Community Disscussions : <a href="https://community.wolfram.com/web/amandewat
   <img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/NFT%20Certificate.png" width="35%"></span>
 </p>
 <hr>
+
+## Introduction
+
+<p align=justify>
+The Purpose of the Project is to design a function that tells difference between two given expressions and denotes the changes that need to be made to reference expression(expr_1) to make it appear same as another expression (expr_2) and produce the same evaluation. The approach involves visualizing these expressions as trees and record these differences in expression as a list of  “Insert”, “Delete” and “ReplacePart” operations which on being applied to reference expression(expr_1) results in the other expression(expr_2).</p>
