@@ -3,4 +3,6 @@
 My Community Disscussions : <a href="https://community.wolfram.com/web/amandewatnitrr?p_p_id=user_WAR_userportlet&tabs1=Discussions"  target="_blank">
 <img src="https://img.shields.io/badge/Wolfram-DD1100?style=for-the-badge&logo=Wolfram&logoColor=white"></a><br>
 <hr>
-<img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/PPT%20NFT.png" width="100%">
+<p align=center>
+<img src="https://github.com/amandewatnitrr/Wolfram/blob/main/Wolfram%20Summer%20Shcool%202021/imgs/PPT%20NFT.png" width="50%">
+</p>
