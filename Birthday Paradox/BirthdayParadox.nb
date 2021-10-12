@@ -1,0 +1,309 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[     11218,        299]
+NotebookOptionsPosition[      8455,        243]
+NotebookOutlinePosition[      8924,        261]
+CellTagsIndexPosition[      8881,        258]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["My Coding Solution to the \[OpenCurlyDoubleQuote]Birthday Paradox\
+\[CloseCurlyDoubleQuote]", "Title",
+ CellChangeTimes->{{3.8385489210318727`*^9, 
+  3.83854894264474*^9}},ExpressionUUID->"4fa03c4c-3c0f-4011-8291-\
+b92825b3b479"],
+
+Cell["\<\
+Birthday paradox --- 
+IF THERE ARE 23 PEOPLE IN  A ROOM, THE CHANCES OF 2 OF THEM HAVING THE SAME \
+BIRTHDAY IS GREATER THAN 50%
+now some of the sites which I have referred have solved with a perspective \
+that \[OpenCurlyDoubleQuote]THE CHANCES OF AT LEAST 2 OF THEM HAVING THE SAME \
+BIRTHDAY\[CloseCurlyDoubleQuote].
+
+Here, I\[CloseCurlyQuote]ll try to solve for both of the scenarios. \
+\>", "Subtitle",
+ CellChangeTimes->{{3.8385491663242655`*^9, 3.8385491800748267`*^9}, {
+  3.8385499323394437`*^9, 3.8385500951604195`*^9}, {3.8385501261280212`*^9, 
+  3.838550143703647*^9}},ExpressionUUID->"32850d0f-d7d3-473f-938b-\
+17d6ebd0bcfe"],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+If there are 23 people in a room, the chances of 2 of them having the same \
+birthday is greater than 50%\
+\>", "Section",
+ CellChangeTimes->{{3.838550159243674*^9, 
+  3.8385501823456135`*^9}},ExpressionUUID->"a85760dc-33f7-4a62-a46d-\
+5005a3c3724f"],
+
+Cell["\<\
+p(B) = probability of 2 people sharing the same birthday = 1/365 = 0.0027 \
+\>", "Text",
+ CellChangeTimes->{{3.8385513540462923`*^9, 3.838551386549941*^9}, {
+  3.8385514596815634`*^9, 
+  3.8385514621376905`*^9}},ExpressionUUID->"a8326670-9247-4fda-8ed6-\
+50d28a6107cc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"1", "/", "367"}], ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8385515963135123`*^9, 3.838551636159147*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"ddfbcf49-9786-43ef-9e4c-19f752556489"],
+
+Cell[BoxData["0.00272479564032697547683923705722070845`10."], "Output",
+ CellChangeTimes->{{3.8385516059043636`*^9, 3.838551636862864*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"71a2af40-7762-451e-80fa-56ae89af3cc0"]
+}, Open  ]],
+
+Cell["\<\
+p`(B) = probability of 2 people not sharing the same birthday = 1 - p(B) = 1 \
+- 0.0027 = 0.9973\
+\>", "Text",
+ CellChangeTimes->{{3.8385521056413727`*^9, 3.8385521641450596`*^9}, {
+  3.8385521962774906`*^9, 
+  3.8385522051599607`*^9}},ExpressionUUID->"0a3c000a-84ae-4459-a1f9-\
+59a032ceec37"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", " ", "-", " ", "%4"}]], "Input",
+ CellChangeTimes->{{3.8385522239550495`*^9, 3.838552234646409*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"da3dd538-52c3-469d-aa89-865600d5b9e8"],
+
+Cell[BoxData["0.99727520435967302452316076294277929155`12.563481085394411"], \
+"Output",
+ CellChangeTimes->{3.8385522355861735`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"194d2e6f-d3f1-41d7-8463-aa6cdbf0a101"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"ClearAll", "[", "\"\<Global`*\>\"", "]"}]], "Input",
+ CellChangeTimes->{{3.838555430426236*^9, 3.8385554544001274`*^9}, {
+  3.838555581838722*^9, 3.838555585138954*^9}},
+ CellLabel->"In[75]:=",ExpressionUUID->"bea17444-57c5-4443-84f0-007f77b6b170"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SameDay", "[", 
+   RowBox[{"n_", ",", "k_"}], "]"}], ":=", 
+  RowBox[{"1", "-", 
+   FractionBox[
+    RowBox[{"P", "[", 
+     RowBox[{"n", ",", "k"}], "]"}], 
+    SuperscriptBox["k", "n"]]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"P", "[", 
+   RowBox[{"n_", ",", "k_"}], "]"}], ":=", " ", 
+  RowBox[{"N", "[", 
+   RowBox[{
+    FractionBox[
+     RowBox[{"Factorial", "[", "k", "]"}], 
+     RowBox[{"Factorial", "[", 
+      RowBox[{"k", "-", "n"}], "]"}]], ",", "10"}], "]"}]}]}], "Input",
+ CellChangeTimes->{{3.838555103982421*^9, 3.8385551457352767`*^9}, {
+  3.8385551916164513`*^9, 3.8385551966493177`*^9}, {3.838555231147309*^9, 
+  3.8385552435185156`*^9}, {3.838555392063541*^9, 3.83855542546035*^9}, {
+  3.8385555990607443`*^9, 3.8385555995741405`*^9}, {3.8385559596956387`*^9, 
+  3.838556020902952*^9}, {3.8385564274596043`*^9, 3.8385564284113984`*^9}, {
+  3.8385570001591816`*^9, 3.838557035145253*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"2a72ae77-c3f0-4c4b-8760-29fa2ab00305"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SameDay", "[", 
+  RowBox[{"23", ",", "365"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8385564395302353`*^9, 3.8385564497488656`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"6237337e-18a1-4291-a07a-cbc230a054dc"],
+
+Cell[BoxData["0.50729723432398540722466541323379524393`10.012677494547217"], \
+"Output",
+ CellChangeTimes->{
+  3.8385564507251587`*^9, {3.8385570177675743`*^9, 3.8385570382038317`*^9}},
+ CellLabel->"Out[9]=",ExpressionUUID->"4b2a6aa7-ac84-461e-b189-1d9668c698b3"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["\<\
+If there are 23 people in a room, the chances of at least 2 of them having \
+the same birthday is greater than 50%\
+\>", "Section",
+ CellChangeTimes->{{3.8385577930998306`*^9, 
+  3.838557820953718*^9}},ExpressionUUID->"b2c5539b-3ad5-4be9-b64a-\
+ad6f03d78ed5"],
+
+Cell["\<\
+p(B) = probability of 2 people sharing the same birthday = 1/365 = 0.0027 \
+\>", "Text",
+ CellChangeTimes->{{3.8385513540462923`*^9, 3.838551386549941*^9}, {
+  3.8385514596815634`*^9, 
+  3.8385514621376905`*^9}},ExpressionUUID->"7f5ad169-5bf6-440a-84fc-\
+512c739fad39"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"N", "[", 
+  RowBox[{
+   RowBox[{"1", "/", "367"}], ",", "10"}], "]"}]], "Input",
+ CellChangeTimes->{{3.8385515963135123`*^9, 3.838551636159147*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"17b88827-4d72-420a-9722-3b1a0226a0d2"],
+
+Cell[BoxData["0.00272479564032697547683923705722070845`10."], "Output",
+ CellChangeTimes->{{3.8385516059043636`*^9, 3.838551636862864*^9}},
+ CellLabel->"Out[4]=",ExpressionUUID->"fa3aa23b-e6b6-496b-b823-5b3d6eb3f448"]
+}, Open  ]],
+
+Cell["\<\
+p`(B) = probability of 2 people not sharing the same birthday = 1 - p(B) = 1 \
+- 0.0027 = 0.9973\
+\>", "Text",
+ CellChangeTimes->{{3.8385521056413727`*^9, 3.8385521641450596`*^9}, {
+  3.8385521962774906`*^9, 
+  3.8385522051599607`*^9}},ExpressionUUID->"0236b38f-1413-4ada-b527-\
+171883ec6bfc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", " ", "-", " ", "%4"}]], "Input",
+ CellChangeTimes->{{3.8385522239550495`*^9, 3.838552234646409*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"6e450661-6e2c-4eea-9db0-06f619fd9d21"],
+
+Cell[BoxData["0.99727520435967302452316076294277929155`12.563481085394411"], \
+"Output",
+ CellChangeTimes->{3.8385522355861735`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"38682d8e-68c0-49fb-8179-178c2ff5d842"]
+}, Open  ]],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"SameBday", "[", 
+   RowBox[{"x_", ",", "t_"}], "]"}], ":=", 
+  RowBox[{"1", "-", 
+   RowBox[{"N", "[", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       FractionBox[
+        RowBox[{"t", "-", "1"}], "t"], ")"}], 
+      RowBox[{"Comb", "[", 
+       RowBox[{"x", ",", "t"}], "]"}]], ",", "10"}], 
+    "]"}]}]}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"Comb", "[", 
+   RowBox[{"x_", ",", "t_"}], "]"}], " ", ":=", " ", 
+  FractionBox[
+   RowBox[{"Factorial", "[", "x", "]"}], 
+   RowBox[{
+    RowBox[{"Factorial", "[", 
+     RowBox[{"x", "-", "2"}], "]"}], "*", 
+    "2"}]]}], "\[IndentingNewLine]"}], "Input",
+ CellChangeTimes->{{3.838557882423831*^9, 3.8385579564509435`*^9}, {
+  3.8385581470408583`*^9, 3.8385582740368176`*^9}, {3.8385584331155505`*^9, 
+  3.8385584454500637`*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"fea516d5-45c1-4a26-818f-7b48bf058790"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SameBday", "[", 
+  RowBox[{"23", ",", "365"}], "]"}]], "Input",
+ CellChangeTimes->{{3.838558277593916*^9, 3.838558285135462*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"ac3535e2-dc00-4950-98b1-a92338926a66"],
+
+Cell[BoxData["0.50047715403658201443106172385727967601`10.00082890171205"], \
+"Output",
+ CellChangeTimes->{3.8385582861544805`*^9, 3.838558449087587*^9},
+ CellLabel->"Out[19]=",ExpressionUUID->"66b7678d-1450-4dd6-b4ea-cb2ae73bf5a5"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1152., 592.8},
+WindowMargins->{{Automatic, -5.399999999999864}, {
+  Automatic, -5.3999999999999995`}},
+Magnification:>0.75 Inherited,
+FrontEndVersion->"12.3 for Microsoft Windows (64-bit) (May 13, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"a2b90810-0987-45d2-ba16-300b49a6a984"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 235, 4, 74, "Title",ExpressionUUID->"4fa03c4c-3c0f-4011-8291-b92825b3b479"],
+Cell[821, 28, 648, 13, 158, "Subtitle",ExpressionUUID->"32850d0f-d7d3-473f-938b-17d6ebd0bcfe"],
+Cell[CellGroupData[{
+Cell[1494, 45, 260, 6, 50, "Section",ExpressionUUID->"a85760dc-33f7-4a62-a46d-5005a3c3724f"],
+Cell[1757, 53, 279, 6, 27, "Text",ExpressionUUID->"a8326670-9247-4fda-8ed6-50d28a6107cc"],
+Cell[CellGroupData[{
+Cell[2061, 63, 250, 5, 21, "Input",ExpressionUUID->"ddfbcf49-9786-43ef-9e4c-19f752556489"],
+Cell[2314, 70, 217, 2, 24, "Output",ExpressionUUID->"71a2af40-7762-451e-80fa-56ae89af3cc0"]
+}, Open  ]],
+Cell[2546, 75, 303, 7, 27, "Text",ExpressionUUID->"0a3c000a-84ae-4459-a1f9-59a032ceec37"],
+Cell[CellGroupData[{
+Cell[2874, 86, 206, 3, 21, "Input",ExpressionUUID->"da3dd538-52c3-469d-aa89-865600d5b9e8"],
+Cell[3083, 91, 210, 3, 24, "Output",ExpressionUUID->"194d2e6f-d3f1-41d7-8463-aa6cdbf0a101"]
+}, Open  ]],
+Cell[3308, 97, 272, 4, 21, "Input",ExpressionUUID->"bea17444-57c5-4443-84f0-007f77b6b170"],
+Cell[3583, 103, 1030, 24, 69, "Input",ExpressionUUID->"2a72ae77-c3f0-4c4b-8760-29fa2ab00305"],
+Cell[CellGroupData[{
+Cell[4638, 131, 234, 4, 21, "Input",ExpressionUUID->"6237337e-18a1-4291-a07a-cbc230a054dc"],
+Cell[4875, 137, 263, 4, 24, "Output",ExpressionUUID->"4b2a6aa7-ac84-461e-b189-1d9668c698b3"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[5187, 147, 269, 6, 50, "Section",ExpressionUUID->"b2c5539b-3ad5-4be9-b64a-ad6f03d78ed5"],
+Cell[5459, 155, 279, 6, 27, "Text",ExpressionUUID->"7f5ad169-5bf6-440a-84fc-512c739fad39"],
+Cell[CellGroupData[{
+Cell[5763, 165, 250, 5, 21, "Input",ExpressionUUID->"17b88827-4d72-420a-9722-3b1a0226a0d2"],
+Cell[6016, 172, 217, 2, 24, "Output",ExpressionUUID->"fa3aa23b-e6b6-496b-b823-5b3d6eb3f448"]
+}, Open  ]],
+Cell[6248, 177, 303, 7, 27, "Text",ExpressionUUID->"0236b38f-1413-4ada-b527-171883ec6bfc"],
+Cell[CellGroupData[{
+Cell[6576, 188, 206, 3, 21, "Input",ExpressionUUID->"6e450661-6e2c-4eea-9db0-06f619fd9d21"],
+Cell[6785, 193, 210, 3, 24, "Output",ExpressionUUID->"38682d8e-68c0-49fb-8179-178c2ff5d842"]
+}, Open  ]],
+Cell[7010, 199, 913, 26, 87, "Input",ExpressionUUID->"fea516d5-45c1-4a26-818f-7b48bf058790"],
+Cell[CellGroupData[{
+Cell[7948, 229, 232, 4, 21, "Input",ExpressionUUID->"ac3535e2-dc00-4950-98b1-a92338926a66"],
+Cell[8183, 235, 232, 3, 50, "Output",ExpressionUUID->"66b7678d-1450-4dd6-b4ea-cb2ae73bf5a5"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
