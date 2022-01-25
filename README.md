@@ -13,7 +13,7 @@ The Wolfram Language (/ˈwʊlfrəm/ WUUL-frəm) is a general multi-paradigm prog
 
 ## Artificial Intelligence and Machine Learning Model Training
 
-It serves as an easy way for deploying Machine Learning and Deep Learning based Cloud Applications. Machine Learning with python is quite difficult as the installation and other stuff such as installing libraries and library versions which requires code to be updated frequetly as soon as the new update arrives. Machine Learning with Wolfram is easy because it's a functional programming laguage and does not require you to code all of the logistical stuff.
+It serves as an easy way for deploying Machine Learning and Deep Learning based Cloud Applications. Machine Learning with python is quite difficult as the installation and other stuff such as installing libraries and library versions which requires code to be updated frequently as soon as the new update arrives. Machine Learning with Wolfram is easy because it's a functional programming language and doesn't require you to code all of the logistical stuff.
 
 <img align="right" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/ai.gif" width="40%"/>
 
@@ -45,7 +45,7 @@ Projects related to Data Analysis will be updated soon:
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/cloud-computing-GIF.gif)
 Cloud Computing and IoT Services are among the major services that Wolfram offers. Cloud Computing not only includes processing in the cloud but also deploying the applications and websites over the cloud. The Wolfram Cloud combines a state-of-the-art notebook interface with the world's most productive programming language — it's scalable for programs from tiny to huge, with immediate access to a vast depth of built-in algorithms and knowledge.
 
-As it is highly and quickly scalable, and has the ability to communicate to all kinds of databases, it's one of the best choices to use for IoT-ased projects. We can connect to variety of devices control and monitor the parameters remotely after cloud deployment.
+As it is highly and quickly scalable, and has the ability to communicate to all kinds of databases, it's one of the best choices to use for IoT-based projects. We can connect to a variety of devices and control and monitor the parameters remotely after cloud deployment.
 <hr>
 
 ## Opportunities at Wolfram
