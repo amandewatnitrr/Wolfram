@@ -28,7 +28,7 @@ Some of the projects that have been developed have been mentioned here:
 <hr>
 
 ## Data Analysis
-The Wolfram Language has unparalleled scientific data analysis capabilities, building on its strong base of algorithms, ability to represent and manipulate models symbolically, and  integrated representation of real-world quantities and entities. It integrates many aspects of statistical data analysis, from getting and exploring data to building high-quality models and deducing consequences.
+The Wolfram Language has unparalleled scientific data analysis capabilities, building on its strong base of algorithms, ability to represent and manipulate models symbolically, and integrated representation of real-world quantities and entities. It integrates many aspects of statistical data analysis, from getting and exploring data to building high-quality models and deducing consequences.
 
 <img align="left" src="https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/giphy-25.gif" width="40%"/>
  
@@ -43,9 +43,9 @@ Projects related to Data Analysis will be updated soon:
 
 ## Cloud Computing and IoT
 ![](https://github.com/amandewatnitrr/Wolfram/blob/main/imgs/cloud-computing-GIF.gif)
-Cloud Computing and IoT Services are among the major services that Wolfram offers. Cloud Computing not only includes processing on the cloud but also deploying the applications and websites over the cloud. The Wolfram Cloud combines a state-of-the-art notebook interface with the world's most productive programming language—scalable for programs from tiny to huge, with immediate access to a vast depth of built-in algorithms and knowledge.
+Cloud Computing and IoT Services are among the major services that Wolfram offers. Cloud Computing not only includes processing in the cloud but also deploying the applications and websites over the cloud. The Wolfram Cloud combines a state-of-the-art notebook interface with the world's most productive programming language — it's scalable for programs from tiny to huge, with immediate access to a vast depth of built-in algorithms and knowledge.
 
-As it is highly and quickly scalable, and has ability to communicate to all kinds of databases, it's one of the best choices to use for IoT-ased projects. We can connect to variety of devices control and monitor the parameters remotely after cloud Deployment.
+As it is highly and quickly scalable, and has the ability to communicate to all kinds of databases, it's one of the best choices to use for IoT-ased projects. We can connect to variety of devices control and monitor the parameters remotely after cloud deployment.
 <hr>
 
 ## Opportunities at Wolfram
